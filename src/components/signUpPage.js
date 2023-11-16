@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Post from './post';
+import './signUpPage.css'; 
 
 const SignUpPage = () => {
   const [username, setUsername] = useState('');
@@ -36,7 +37,7 @@ const SignUpPage = () => {
       <h2>회원가입</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>아이디:</label>
+          <label>아이디</label>
           <input
             type='text'
             value={username}
@@ -44,7 +45,7 @@ const SignUpPage = () => {
           />
         </div>
         <div>
-          <label>이메일:</label>
+          <label>이메일</label>
           <input
             type='email'
             value={email}
@@ -52,7 +53,7 @@ const SignUpPage = () => {
           />
         </div>
         <div>
-          <label>주소:</label>
+          <label>주소</label>
           <input 
             className='address'
             type='text'
@@ -61,12 +62,12 @@ const SignUpPage = () => {
             onClick={handleAddressButtonClick}
           />
           <div>
+          <label>상세주소</label>
           <input 
           className='input-subaddress' 
             type='text'
             value={subaddress}
             onChange={(e) => setSubaddress(e.target.value)}
-            style={{ marginLeft: '45px' }}
           />
           </div>
    
@@ -75,7 +76,7 @@ const SignUpPage = () => {
           )}
         </div>
         <div>
-          <label>비밀번호:</label>
+          <label>비밀번호</label>
           <input
             type='password'
             value={password}
@@ -83,7 +84,7 @@ const SignUpPage = () => {
           />
         </div>
         <div>
-          <label>비밀번호 확인:</label>
+          <label>비밀번호 확인</label>
           <input
             type='password'
             value={confirmPassword}
