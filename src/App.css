@@ -1,0 +1,100 @@
+*{
+  font-family: "LINESeedKR-Bd";
+}
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  overflow: hidden;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel-item img {
+  max-height: auto; 
+  width: auto; 
+  height: auto;
+  max-width: 100%;
+  border-radius: 3%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border: 2px solid bisque;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  transform: translateX(-50%);
+}
+
+.carousel-control-next {
+  transform: translateX(calc(50% - 0%));
+  height: 30px;
+  margin: auto;
+}
+
+.navbar-navbar-expand-navbar-light{
+  width: 100px;
+}
+
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.background{
+  height:100px;
+}
+.logo{
+  margin-left: -300px;
+}
+
+.d-flex{
+  position:fixed;
+  width:500px;
+  right: 450px;
+}
+
+.me-auto{
+  position:fixed;
+  right:330px;
+}
+
+.join{
+  position:fixed;
+  right:250px;
+}
+
+.login{
+  position:fixed;
+  right:180px;
+}
+.mypage{
+  position:fixed;
+  right:80px;
+}
+
+.footer{
+  margin-left:750px;
+} 
+#footer2{
+
+  padding-bottom: 20px;
+  text-size-adjust: 100px;
+} 
+
+.phrase img{
+  height: 250px;
+  width: 60%;
+  margin: auto;
+  display: block;
+}
