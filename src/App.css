@@ -51,45 +51,17 @@
   font-style: normal;
 }
 
-.background{
-  height:100px;
-}
-.logo{
-  margin-left: -300px;
-}
 
-.d-flex{
-  position:fixed;
-  width:500px;
-  right: 450px;
+#logo{
+  text-align: center;
+  float: none; 
+  margin: 0 auto;
+  
 }
-
-.me-auto{
-  position:fixed;
-  right:330px;
-}
-
-.join{
-  position:fixed;
-  right:250px;
-}
-
-.login{
-  position:fixed;
-  right:180px;
-}
-.mypage{
-  position:fixed;
-  right:80px;
-}
-
-.footer{
-  margin-left:750px;
-} 
 #footer2{
-
-  padding-bottom: 20px;
-  text-size-adjust: 100px;
+  text-align: center;
+  float: none; 
+  margin: 0 auto;
 } 
 
 .phrase img{

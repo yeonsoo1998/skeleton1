@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
-import "./LoginPage.css"
-import { Link ,useNavigate } from 'react-router-dom';
+import "./loginPage.css"
+import { Link } from 'react-router-dom';
 
 const LoginPage = ({ handleLogin }) => {
   const [username, setUsername] = useState('');
@@ -41,10 +41,10 @@ const LoginPage = ({ handleLogin }) => {
           <button type="submit">로그인</button>
           {error && <p style={{ color: 'red' }}>{error}</p>}
         </div>
-        
+
         <Link to='/signup' className='sign_up'>Sign Up</Link>
         <Link to='/' className='home'>Home</Link>
-        
+
       </form>
     </div>
   );

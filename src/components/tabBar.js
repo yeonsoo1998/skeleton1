@@ -68,9 +68,7 @@ function TabContentSkeleton() {
 
 function TabContent(props,i) {
     if (props.tab === 0) {
-
         return (
-
             <div className='novel'>
                 <img src={props.novelData.img} alt=""/>
                 <h3 className='card-title'>{props.novelData.title}</h3>
@@ -97,7 +95,6 @@ function TabContent(props,i) {
                 <p>{props.magazineData.writer}</p>
                 <p>{props.magazineData.price}</p>
             </div>
-
         )
     }
 }

@@ -17,13 +17,7 @@ function ColorSchemesExample() {
 
   return (
     <>
-              <Nav className="join">
-            <Nav.Link href="/signup">회원가입</Nav.Link>
-          </Nav>
-
-          <Nav.Item className='login'>
-            <Nav.Link href="/login">로그인</Nav.Link>
-          </Nav.Item>
+      
 
       <Navbar style={navbarStyle} variant="light">
         <Container fluid>
@@ -37,7 +31,7 @@ function ColorSchemesExample() {
           </Nav>
 
           <Nav className="community">
-          <Nav.Link href="#home" >공유해요</Nav.Link>
+          <Nav.Link href="#home">공유해요</Nav.Link>
           </Nav>
 
           <NavDropdown title="년도별" id="basic-nav-dropdown" className="year">
@@ -67,12 +61,19 @@ function ColorSchemesExample() {
                 <BiSearch />
               </Button>
             </InputGroup>
+              <Nav className="join">
+            <Nav.Link href="/signup">회원가입</Nav.Link>
+          </Nav>
+
+          <Nav.Item className='login'>
+            <Nav.Link href="/login">로그인</Nav.Link>
+          </Nav.Item>
           </Form>
 
 
           
           <Nav className="mypage">
-            <Nav.Link href="#home"><img src="img/mypage2.png" width="130" alt="마이페이지"/></Nav.Link>
+            <Nav.Link href="#home"><img src="img/mypage2.png" width="100" alt="마이페이지"/></Nav.Link>
           </Nav>
           <Nav className="alarm">
             <Nav.Link href="#home"><img src="img/alarm.png" width="90" alt="알람"/></Nav.Link>

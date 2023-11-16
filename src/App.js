@@ -17,9 +17,8 @@ function App() {
         <Slide/>
         <TabBar/>
         <Footer/>
-        
     </div>
   );
 }
-dd
+
 export default App;
