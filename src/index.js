@@ -6,6 +6,7 @@ import Login from './components/loginPage'
 import Signup from './components/signUpPage'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Sellpage from './components/sellPage'
 
 
 
@@ -18,7 +19,7 @@ root.render(
       <Route path='/' element={<App />} />
       <Route path='login' element={<Login />} /> 
       <Route path='signup' element={<Signup />} /> 
-      
+      <Route path='sell' element={<Sellpage/>} />
       </Routes>
       </div>
 

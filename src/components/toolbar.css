@@ -33,24 +33,13 @@
   height: 30px;
   margin-right:50px;
   display: flex;
-
-
 }
 
 .join{
-  margin-left: 10px;
-  margin-right:-90px; /* 수정된 부분 */
-  margin-bottom: -10px;
-  display: flex;
-  align-items: center;
+  margin: 0px;
 }
 
-.login{
-  margin-left: 90px;
-  margin-right: -180px;
-  display: flex;
-  
-}
+
 
 .mypage{
   margin-right: -140px;

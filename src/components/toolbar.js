@@ -58,14 +58,13 @@ function ColorSchemesExample() {
                 <BiSearch />
               </Button>
             </InputGroup>
-              <Nav className="join">
+            </Form>
+           <Nav className="join">
             <Nav.Link href="/signup">회원가입</Nav.Link>
+            <Nav.Link href="/login">로그인</Nav.Link>
           </Nav>
 
-          <Nav.Item className='login'>
-            <Nav.Link href="/login">로그인</Nav.Link>
-          </Nav.Item>
-          </Form>
+          
 
 
           
