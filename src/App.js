@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       
         <Toolbar/>
-        <div className='phrase'><img src='img/phrase.png'></img></div>
         <Slide/>
         <TabBar/>
         <Footer/>

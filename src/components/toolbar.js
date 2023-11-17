@@ -6,20 +6,16 @@ import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { BiSearch } from 'react-icons/bi';
+import { Link } from 'react-router-dom';
 import './toolbar.css';
 
 function ColorSchemesExample() {
-  const navbarStyle = {
-    backgroundColor: 'white',
-    color: 'black',
-    height: '110px',
-  };
-
+  
   return (
     <>
       
 
-      <Navbar className="navBar" style={navbarStyle} variant="light">
+      <Navbar className="navBar" variant="light">
         <Container fluid>
 
           <Nav className="nav-container">
@@ -42,7 +38,7 @@ function ColorSchemesExample() {
           </NavDropdown>
 
           <Nav className='topLogo'>
-            <img src="img/logo.png" width="150" height="200" alt="로고"/>
+            <Link to='/'><img src="img/logo.png" width="150" height="200" alt="로고"/></Link>
           </Nav>
           <Navbar.Brand href="#home" className="mainName"><h2>책판다</h2></Navbar.Brand>
 
@@ -65,9 +61,6 @@ function ColorSchemesExample() {
           </Nav>
 
           
-
-
-          
           <Nav className="mypage">
             <Nav.Link href="#home"><img src="img/mypage2.png" width="100" alt="마이페이지"/></Nav.Link>
           </Nav>
@@ -77,6 +70,7 @@ function ColorSchemesExample() {
 
         </Container>
       </Navbar>
+       <div className='phrase'><img src='img/phrase.png'></img></div>
     </>
   );
 }

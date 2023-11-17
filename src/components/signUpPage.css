@@ -68,3 +68,10 @@ input[type='password'],
     color: red;
     margin-top: 10px;
   }
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 50px;
+}

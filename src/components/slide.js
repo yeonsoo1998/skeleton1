@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import '../App.css';
+import './slide.css';
 
 function UncontrolledExample() {
   return (
