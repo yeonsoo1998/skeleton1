@@ -5,8 +5,10 @@ import App from './App';
 import Login from './components/loginPage'
 import Signup from './components/signUpPage'
 import reportWebVitals from './reportWebVitals';
+import BookDetail from './components/bookDetail';
+import Category from './components/category'
+import Novel from './components/novelContent'
 import { BrowserRouter,Routes,Route } from "react-router-dom";
-import Sellpage from './components/sellPage'
 
 
 
@@ -14,14 +16,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <div style={{ margin: '0 250px' }}>
+
       <Routes>
       <Route path='/' element={<App />} />
-      <Route path='login' element={<Login />} /> 
-      <Route path='signup' element={<Signup />} /> 
-      <Route path='sell' element={<Sellpage/>} />
+      <Route path='/login' element={<Login />} /> 
+      <Route path='/signup' element={<Signup />} /> 
+      <Route path='/category' element={<Category />} />
+      <Route path='/category/novel' element={<Novel />} />
+      <Route path='/category/novel/bookDetail/:id' element={<BookDetail />} /> 
       </Routes>
-      </div>
+
 
     </BrowserRouter>
   </React.StrictMode>
